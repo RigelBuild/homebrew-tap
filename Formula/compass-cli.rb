@@ -4,6 +4,7 @@ class CompassCli < Formula
   homepage "https://github.com/RigelBuild/compass"
   version "0.3.1"
   license "AGPL-3.0-only"
+  disable! date: "2026-11-08", because: :unmaintained
 
   on_macos do
     on_arm do
